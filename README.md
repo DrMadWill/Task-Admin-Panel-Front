@@ -6,3 +6,4 @@ This task was created to demonstrate the ability of several developers to work t
 
 ## Developers
 - [Orxan Şərifov](https://github.com/orxansharifov)
+- [Nofəl Salahov](https://github.com/DrMadWill)
