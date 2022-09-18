@@ -1,0 +1,303 @@
+section .main-list {
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+}
+section .main-list .left-menu {
+  width: 21%;
+}
+section .main-list .left-menu .menu__top-nav {
+  height: 62px;
+  border-bottom: 1px solid grey;
+}
+section .main-list .left-menu .menu__top-nav .menu-icon {
+  margin: 10px;
+}
+section .main-list .left-menu .menu__top-nav .nest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section .main-list .left-menu .menu__top-nav .nest img {
+  width: 30%;
+}
+section .main-list .left-menu .menu__top-nav .nest ul li:first-child {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3bb77e;
+  letter-spacing: 2px;
+  list-style: none;
+}
+section .main-list .left-menu .menu__top-nav .nest ul li:last-child {
+  font-size: 7px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  list-style: none;
+}
+section .main-list .left-menu .option_list {
+  width: 95%;
+  margin: auto;
+  padding-top: 1rem;
+}
+section .main-list .left-menu .option_list i {
+  color: grey;
+}
+section .main-list .left-menu .option_list button {
+  font-weight: bold;
+}
+section .main-list .left-menu .option_list .second_drowdown_menu .dropdown_list {
+  display: none;
+}
+section .main-list .left-menu .option_list .btn-drop {
+  width: 95%;
+}
+section .main-list .left-menu .option_list .btn-drop button {
+  text-align: left;
+  padding: 13px;
+  width: 86%;
+  margin: 3px 0;
+  border: none;
+  background: white;
+}
+section .main-list .left-menu .option_list .btn {
+  width: 100%;
+}
+section .main-list .left-menu .option_list .btn button {
+  border: none;
+  background: white;
+  text-align: left;
+  padding: 13px;
+  width: 91%;
+  margin: 3px 0;
+}
+section .main-list .right-main {
+  border-left: 1px solid grey;
+}
+section .main-list .right-main .top-nav__right-main {
+  height: 4rem;
+  margin: 0 1rem;
+}
+section .main-list .right-main .top-nav__right-main .search_menu .search input {
+  padding: 10px 4rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 1px solid #CEDBDA;
+  background: #CEDBDA;
+  width: 18rem;
+  padding: 12px 1rem;
+}
+section .main-list .right-main .top-nav__right-main .search_menu .search_icon a {
+  border-left: 1px solid grey;
+  background-color: #CEDBDA;
+  color: grey;
+  padding: 11px 21px 13px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+section .main-list .right-main .top-nav__right-main .search_menu .search_icon:hover a {
+  background-color: #3bb77e;
+  color: white;
+}
+section .main-list .right-main .top-nav__right-main .icons {
+  position: relative;
+}
+section .main-list .right-main .top-nav__right-main .icons .icons1 a {
+  background-color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 7px;
+  font-size: 20px;
+  color: grey;
+}
+section .main-list .right-main .top-nav__right-main .icons .icons1 .green-3 {
+  border-radius: 50%;
+  color: white;
+  border: 1px solid #3bb77e;
+  background-color: #3bb77e;
+  padding: 0px 4px;
+  font-size: 12px;
+  position: absolute;
+  left: 16px;
+  top: 3px;
+}
+section .main-list .right-main .top-nav__right-main .icons ul li {
+  list-style: none;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu .drop-list {
+  display: none;
+  border: 1px solid;
+  text-align: left;
+  width: 60%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px 0;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu .drop-list li {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu .drop-list li img {
+  vertical-align: middle;
+  width: 15%;
+  margin: 0 5px;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu .drop-list2 {
+  display: none;
+  border: 1px solid;
+  text-align: left;
+  width: 70%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px 0;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu .drop-list2 li {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu .drop-list2 li i {
+  vertical-align: middle;
+  margin: 0 10px;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu:hover .drop-list2 {
+  display: block;
+  position: absolute;
+  left: 5.5rem;
+  top: 2.5rem;
+  z-index: 2;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu:hover .drop-list {
+  display: block;
+  position: absolute;
+  left: 1.5rem;
+  top: 2.5rem;
+  z-index: 2;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu a {
+  text-decoration: none;
+  padding: 3px;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu a img {
+  width: 35px;
+  border-radius: 50%;
+}
+section .main-list .right-main .top-nav__right-main .icons ul .drop_menu a i {
+  padding: 0px;
+  font-size: 12px;
+}
+section .main-list .right-main .down-nav {
+  background: #CEDBDA;
+  padding-bottom: 3rem;
+}
+section .main-list .right-main .down-nav .sellers {
+  padding: 2rem 2rem;
+  border-top: 1px solid grey;
+}
+section .main-list .right-main .down-nav .sellers h2 {
+  font-size: 2rem;
+}
+section .main-list .right-main .down-nav .sellers a:hover {
+  background-color: #09a05b;
+}
+section .main-list .right-main .down-nav .sellers a {
+  font-size: 13px;
+  text-decoration: none;
+  padding: 12px 3rem;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  background-color: #3bb77e;
+}
+section .main-list .right-main .down-nav .sellers a i {
+  margin-right: 10px;
+}
+section .main-list .right-main .down-nav .portfolio-main:hover {
+  position: relative;
+  bottom: 5px;
+}
+section .main-list .right-main .down-nav .portfolio-main {
+  padding: 1.5rem 2rem 1rem;
+  background: white;
+  width: 94%;
+  margin: auto;
+  border-radius: 8px;
+  position: relative;
+  bottom: 0px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+section .main-list .right-main .down-nav .portfolio-main .search-form {
+  padding-bottom: 2rem;
+}
+section .main-list .right-main .down-nav .portfolio-main .search-form .search input {
+  font-size: 13px;
+  padding: 14px 6rem 12px 16px;
+  border-radius: 7px;
+  border: none;
+  background-color: #CEDBDA;
+}
+section .main-list .right-main .down-nav .portfolio-main .search-form .search2 a {
+  color: black;
+}
+section .main-list .right-main .down-nav .portfolio-main .search-form .search2 select {
+  margin-left: 10px;
+  border-radius: 7px;
+  padding: 10px 2rem;
+  background-color: #CEDBDA;
+  border: none;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list li {
+  list-style: none;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list .card_list:hover {
+  position: relative;
+  bottom: 5px;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list .card_list {
+  text-align: center;
+  border: 1px solid #CEDBDA;
+  border-radius: 8px;
+  background-color: white;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  position: relative;
+  bottom: 0px;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list .card_list .card-header .bgcol {
+  background: aqua;
+  padding: 3rem 0px;
+  height: 5rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list .card_list .card-header .bgcol img {
+  border: 3px solid white;
+  width: 45%;
+  height: 6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list .card_list .card-body {
+  padding: 3rem 0 2rem;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list .card_list .card-body h5 {
+  margin-top: 1rem;
+  font-size: 17px;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list .card_list .card-body ul {
+  margin: 1rem 0;
+  font-size: 14px;
+  color: grey;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list .card_list .card-body ul li {
+  margin-top: 5px;
+}
+section .main-list .right-main .down-nav .portfolio-main .portfolio_list .card_list .card-body button {
+  padding: 7px 10px;
+  margin-top: 5px;
+  color: white;
+  background-color: #3bb77e;
+  border: none;
+  border-radius: 7px;
+  border: 1px solid;
+}/*# sourceMappingURL=index.css.map */

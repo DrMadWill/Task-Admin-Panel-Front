@@ -1,0 +1,409 @@
+$transtion : all .2s ease-out;;
+
+
+section {
+    .main-list {
+        justify-content: unset;
+
+        .left-menu {
+            width: 21%;
+
+            .menu__top-nav {
+                height: 62px;
+                border-bottom: 1px solid grey;
+
+                .menu-icon {
+                    margin: 10px;
+                }
+
+                .nest {
+                    display: flex;
+
+                    img {
+                        width: 30%;
+                    }
+
+                    ul {
+                        li:first-child {
+                            font-size: 28px;
+                            font-weight: bold;
+                            color: #3bb77e;
+                            letter-spacing: 2px;
+                            list-style: none;
+                        }
+
+                        li:last-child {
+                            font-size: 7px;
+                            font-weight: bold;
+                            letter-spacing: 1px;
+                            list-style: none;
+                        }
+                    }
+                }
+            }
+
+
+
+            .option_list {
+                width: 95%;
+                margin: auto;
+                padding-top: 1rem;
+
+                i {
+                    color: grey;
+                }
+
+                button {
+                    font-weight: bold;
+                }
+
+                .second_drowdown_menu {
+                    .dropdown_list {
+                        display: none;
+                    }
+                }
+
+                .second:hover .dropdown_list {
+                    // display: block;
+                    // position:absolute;
+                    // top: 50px;
+                    // right:-2rem;
+                }
+
+                .btn-drop {
+                    width: 95%;
+
+                    button {
+                        text-align: left;
+                        padding: 13px;
+                        width: 86%;
+                        margin: 3px 0;
+                        border: none;
+                        background: white;
+                    }
+                }
+
+                .btn {
+                    width: 100%;
+
+                    button {
+                        border: none;
+                        background: white;
+                        text-align: left;
+                        padding: 13px;
+                        width: 91%;
+                        margin: 3px 0;
+                    }
+                }
+            }
+        }
+
+        .right-main {
+            border-left: 1px solid grey;
+
+            .top-nav__right-main {
+                height: 4rem;
+                margin: 0 1rem;
+
+                .search_menu {
+                    .search {
+                        input {
+                            padding: 10px 4rem;
+                            border-top-left-radius: 8px;
+                            border-bottom-left-radius: 8px;
+                            border: 1px solid #CEDBDA;
+                            background: #CEDBDA;
+                            width: 18rem;
+                            padding: 12px 1rem;
+                        }
+                    }
+
+                    .search_icon {
+                        a {
+                            border-left: 1px solid grey;
+                            background-color: #CEDBDA;
+                            color: grey;
+                            padding: 11px 21px 13px;
+                            border-top-right-radius: 8px;
+                            border-bottom-right-radius: 8px;
+                        }
+                    }
+
+                    .search_icon:hover a {
+                        background-color: #3bb77e;
+                        color: white;
+                    }
+                }
+
+                .icons {
+                    position: relative;
+
+                    .icons1 {
+                        a {
+                            background-color: white;
+                            border: none;
+                            border-radius: 24px;
+                            padding: 7px;
+                            font-size: 20px;
+                            color: grey;
+                        }
+
+                        .green-3 {
+                            border-radius: 50%;
+                            color: white;
+                            border: 1px solid #3bb77e;
+                            background-color: #3bb77e;
+                            padding: 0px 4px;
+                            font-size: 12px;
+                            position: absolute;
+                            left: 16px;
+                            top: 3px;
+
+                        }
+                    }
+
+                    ul {
+                        li {
+                            list-style: none;
+
+                        }
+
+                        .drop_menu {
+                            .drop-list {
+                                display: none;
+                                border: 1px solid;
+                                text-align: left;
+                                width: 60%;
+                                background-color: white;
+                                border-radius: 8px;
+                                padding: 5px 0;
+
+                                li {
+                                    font-size: 12px;
+                                    padding: 5px 10px;
+
+                                    img {
+                                        vertical-align: middle;
+                                        width: 15%;
+                                        margin: 0 5px;
+
+                                    }
+                                }
+
+                            }
+
+                            .drop-list2 {
+                                display: none;
+                                border: 1px solid;
+                                text-align: left;
+                                width: 70%;
+                                background-color: white;
+                                border-radius: 8px;
+                                padding: 5px 0;
+
+                                li {
+                                    font-size: 12px;
+                                    padding: 5px 10px;
+
+                                    i {
+                                        vertical-align: middle;
+                                        margin: 0 10px;
+
+                                    }
+                                }
+
+                            }
+                        }
+
+                        .drop_menu:hover .drop-list2 {
+                            display: block;
+                            position: absolute;
+                            left: 5.5rem;
+                            top: 2.5rem;
+                            z-index: 2;
+                        }
+
+                        .drop_menu:hover .drop-list {
+                            display: block;
+                            position: absolute;
+                            left: 1.5rem;
+                            top: 2.5rem;
+                            z-index: 2;
+
+                        }
+
+                        .drop_menu {
+                            a {
+                                text-decoration: none;
+                                padding: 3px;
+
+                                img {
+                                    width: 35px;
+                                    border-radius: 50%;
+                                }
+
+                                i {
+                                    padding: 0px;
+                                    font-size: 12px;
+                                }
+
+                                ul {
+                                    li {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .down-nav {
+                background: #CEDBDA;
+                padding-bottom: 3rem;
+                .sellers {
+                    padding: 2rem 2rem;
+                    border-top: 1px solid grey;
+
+                    h2 {
+                        font-size: 2rem;
+                    }
+
+                    a:hover {
+                        background-color: #09a05b;
+                    }
+
+                    a {
+                        font-size: 13px;
+                        text-decoration: none;
+                        padding: 12px 3rem;
+                        color: white;
+                        border-radius: 8px;
+                        border: none;
+                        background-color: #3bb77e;
+
+                        i {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+                .portfolio-main:hover {
+                    position: relative;
+                    bottom: 5px;
+
+                }
+
+                .portfolio-main {
+                    padding: 1.5rem 2rem 1rem;
+                    background: white;
+                    width: 94%;
+                    margin: auto;
+                    border-radius: 8px;
+
+                    position: relative;
+                    bottom: 0px;
+                    transition: $transtion;
+                    .search-form {
+                        padding-bottom: 2rem;
+
+                        .search {
+                            input {
+                                font-size: 13px;
+                                padding: 14px 6rem 12px 16px;
+                                border-radius: 7px;
+                                border: none;
+                                background-color: #CEDBDA;
+                            }
+
+                        }
+
+                        .search2 {
+                            a {
+                                color: black;
+                            }
+
+                            select {
+                                margin-left: 10px;
+                                border-radius: 7px;
+                                padding: 10px 2rem;
+                                background-color: #CEDBDA;
+                                border: none;
+                            }
+                        }
+                    }
+
+                    .portfolio_list {
+
+                        li {
+                            list-style: none;
+                        }
+
+                        .card_list:hover {
+                            position: relative;
+                            bottom: 5px;
+                        }
+
+                        .card_list {
+                            text-align: center;
+                            border: 1px solid #CEDBDA;
+                            border-radius: 8px;
+                            background-color: white;
+                            transition: $transtion;
+                            position: relative;
+                            bottom: 0px;
+                            .card-header {
+
+                                .bgcol {
+                                    background: aqua;
+                                    padding: 3rem 0px;
+                                    height: 5rem;
+                                    border-top-left-radius: 8px;
+                                    border-top-right-radius: 8px;
+
+                                    img {
+                                        border: 3px solid white;
+                                        width: 45%;
+                                        height: 6rem;
+                                        object-fit: cover;
+                                        border-radius: 50%;
+                                    }
+
+                                }
+
+
+                            }
+
+                            .card-body {
+                                padding: 3rem 0 2rem;
+
+                                h5 {
+                                    margin-top: 1rem;
+                                    font-size: 17px;
+                                }
+
+                                ul {
+                                    margin: 1rem 0;
+                                    font-size: 14px;
+                                    color: grey;
+
+                                    li {
+                                        margin-top: 5px;
+                                    }
+                                }
+
+                                button {
+                                    padding: 7px 10px;
+                                    margin-top: 5px;
+                                    color: white;
+                                    background-color: #3bb77e;
+                                    border: none;
+                                    border-radius: 7px;
+                                    border: 1px solid;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
